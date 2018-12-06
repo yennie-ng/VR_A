@@ -15,6 +15,7 @@ class SteeringNavigation(avango.script.Script):
 
     ## input fields
     mf_dof = avango.MFFloat()
+
     mf_dof.value = [0.0,0.0,0.0,0.0,0.0,0.0,0.0] # init 7 channels
 
     ## output fields
